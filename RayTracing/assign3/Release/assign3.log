@@ -1,0 +1,97 @@
+﻿生成启动时间为 2015/4/21 13:46:29。
+     1>项目“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\assign3\assign3.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\assign3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"glut-3.7.6-bin" /IpicLibrary /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt assign3.cpp
+         assign3.cpp
+     1>assign3.cpp(574): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>assign3.cpp(585): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>assign3.cpp(587): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>assign3.cpp(594): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>assign3.cpp(596): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>assign3.cpp(603): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>assign3.cpp(605): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>assign3.cpp(611): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>assign3.cpp(618): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>assign3.cpp(626): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>assign3.cpp(628): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>assign3.cpp(650): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>assign3.cpp(667): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\assign3.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"glut-3.7.6-bin" /LIBPATH:picLibrary libjpeg.lib libtiff.lib picLibrary.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\assign3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\assign3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\assign3.lib" /MACHINE:X86 Release\assign3.obj
+     1>MSVCRT.lib(cinitexe.obj) : warning LNK4098: 默认库“libcmtd.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+     1>picLibrary.lib(pic.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“picLibrary.lib(pic.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>picLibrary.lib(jpeg.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“picLibrary.lib(jpeg.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>picLibrary.lib(ppm.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“picLibrary.lib(ppm.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>picLibrary.lib(tiff.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“picLibrary.lib(tiff.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcapimin.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcapimin.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcapistd.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcapistd.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcarith.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcarith.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcparam.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcparam.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatadst.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdatadst.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcinit.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcinit.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmaster.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcmaster.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmarker.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcmarker.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmainct.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcmainct.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcprepct.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcprepct.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccoefct.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jccoefct.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccolor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jccolor.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcsample.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcsample.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jchuff.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jchuff.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcdctmgr.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcdctmgr.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctfst.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jfdctfst.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctflt.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jfdctflt.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctint.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jfdctint.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapimin.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdapimin.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapistd.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdapistd.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdarith.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdarith.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatasrc.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdatasrc.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmaster.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdmaster.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdinput.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdinput.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmarker.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdmarker.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdhuff.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdhuff.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmainct.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdmainct.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcoefct.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdcoefct.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdpostct.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdpostct.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jddctmgr.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jddctmgr.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctfst.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jidctfst.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctflt.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jidctflt.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctint.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jidctint.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdsample.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdsample.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcolor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdcolor.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant1.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jquant1.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant2.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jquant2.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmerge.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jdmerge.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jaricom.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jaricom.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcomapi.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jcomapi.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jutils.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jutils.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jerror.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jerror.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemmgr.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jmemmgr.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemnobs.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libjpeg.lib(jmemnobs.obj)”或在“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         assign3.vcxproj -> E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\assign3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\Release\assign3.exe;#1" /manifest Release\assign3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\assign3.unsuccessfulbuild”。
+         正在对“Release\assign3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\学习\USC\Books\MyBooks\420 Computer Graphics_Homework\HW3\Xiaoting_Bi_HW3\assign3\assign3\assign3.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.30
